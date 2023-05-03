@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Box icon CDN -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+
+<body class="bg-[url('./images/backgroundImg.png')] bg-cover bg-no-repeat text-white">
+    <!-- header start  -->
+    <header class="w-full h-auto bg-transparent">
+        <div class="container mx-auto max-w-[1300px] m-0 ">
+            <nav class="nav flex justify-between items-center h-[80px]">
+                <a href="#" class="nav__logo">
+                    <img src="./images/Logo.svg" alt="logo" class="max-w-[8rem]">
+                </a>
+
+                <ul class="nav__list flex justify-between w-2/5">
+                    <li class="nav__list--item ">
+                        <a href="#" class="nav__list--item-link border-b-4 border-[#B2405D] pb-1">ABOUT</a>
+                    </li>
+                    <li class="nav__list--item">
+                        <a href="#" class="nav__list--item-link">INGREDIENTS</a>
+                    </li>
+                    <li class="nav__list--item">
+                        <a href="#" class="nav__list--item-link">PRODUCT</a>
+                    </li>
+                    <li class="nav__list--item">
+                        <a href="#" class="nav__list--item-link">CONTACT</a>
+                    </li>
+                </ul>
+
+                <span class="nav__menu w-12 h-12 rounded-full border-4 border-[rgba(255,255,255,0.1)]">
+                    <i class="bx bx-menu text-[22px] m-2"></i>
+                </span>
+            </nav>
+        </div>
+    </header>
+
+    <!-- header end -->
+
+    <!-- Main start -->
+    <main>
+
+        <!-- INTRO SECTION START -->
+
+        <section class="intro w-full //h-auto relative h-[640px] items-center flex">
+            <div class="container mx-auto max-w-[1300px] m-0">
+                <div class="wrapper">
+                    <div class="intro__top flex justify-evenly">
+                        <p class="intro__title text-[80px] leading-[75px] pt-16">THE <br> NIGHT <br> TREASURE </p>
+                        <img src="./images/MainImg.png" class="intro__img w-[400px]">
+                        <div class="intro__details flex flex-col  justify-center leading-10">
+                            <span>Details</span>
+                            <p class="text-[40px] ">$100.45</p>
+                            <img src="./images/Stars.svg">
+                            <p>30 mL</p>
+                        </div>
+                    </div>
+                    <div class="intro__bottom flex justify-evenly  mt-8 ">
+                        <div class="flex ">
+                            <div class="w-[100px] h-[3px] mt-3 bg-white"></div>
+                            <p class="text-[20px] w-[370px] ms-6">The night treasure Parfum embodies a new facet of
+                                love.
+                            </p>
+                        </div>
+                        <div class="flex mr-48">
+                            <button
+                                class="w-[150px] h-[50px] rounded-full hover:ring-2 ring-pink-300 ring-inset bg-[#B2405D]">Add
+                                to cart +</button>
+                            <img src="./images/PlayButton.svg" class="w-[100px] h-[50px]">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- INTRO SECTION END -->
+
+        <!-- Feature SECTION START-->
+
+        <section class="feature h-[250px]">
+            <div class="container mx-auto max-w-[1300px] m-0 ">
+                <div class="wrapper flex">
+                    <div
+                        class="feature-card w-[275px] h-[150px] bg-gradient-to-r from-[#160408] to-[#170308] border-2 border-[#AC3944] flex flex-col justify-center opacity-70">
+                        <p class="feature-card__title text-[#FF678E] ">01</p>
+                        <p class="feature-card__desc text-[20px]">DESCRIPTION</p>
+                    </div>
+                    <div
+                        class="feature-card w-[375px] h-[150px] bg-gradient-to-r from-[#160408] to-[#170308] border-2 border-[#AC3944] flex flex-col justify-center opacity-40">
+                        <p class="feature-card__title text-[#FF678E]">02</p>
+                        <p class="feature-card__desc text-[20px]">PERFUMED NOTES</p>
+                    </div>
+                    <div
+                        class="feature-card w-[275px] h-[150px] bg-gradient-to-r from-[#160408] to-[#170308] border-2 border-[#AC3944] flex flex-col justify-center opacity-40">
+                        <p class="feature-card__title text-[#FF678E]">01</p>
+                        <p class="feature-card__desc text-[20px]">FLACON</p>
+                    </div>
+                    <div
+                        class="feature-card w-[375px] h-[150px] bg-gradient-to-r from-[#160408] to-[#170308] border-2 border-[#AC3944] flex flex-col justify-center opacity-40">
+                        <p class="feature-card__title text-[#FF678E]">01</p>
+                        <p class="feature-card__desc text-[20px]">COMPOSITION </p>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Feature SECTION END-->
+
+        <!-- About SECTION START-->
+
+        <section class="about h-[920px]">
+            <div class="container mx-auto max-w-[1300px] m-0 ">
+
+                <div class="wrapper">
+
+                    <p class="about__title  text-[50px]">A Vanila Phrodisiac</p>
+                    <p class="about__desc text-[#5E5A5B] my-6 mb-20">Financial institutions provide financial services
+                        for members <br> and as middlemen between the savers and borrowers.</p>
+
+                    <div class="about-tech flex justify-between">
+                        <div
+                            class="about__card  w-[433px] h-[600px] flex flex-col items-start p-10 text-center justify-center">
+                            <img src="./images/AboutImage.png" class="about__card-image w-7/12 h-[200px]">
+                            <h2 class="text-[22px] my-2">ROSE DAMASCENA</h2>
+                            <p>the rose of Castile, is a rose <br> hybrid, </p>
+                        </div>
+                        <div
+                            class="about__card h-[600px] w-[433px] flex flex-col items-center p-10 backdrop-blur-[145px] text-center border-2 rounded-2xl border-[#303030] justify-center">
+                            <img src="./images/AboutImage2.png" class="about__card-image w-7/12 h-[200px]">
+                            <h2 class="text-[22px] my-2">ROSE DAMASCENA</h2>
+                            <p>more commonly known as the <br> Damask rose.</p>
+                        </div>
+                        <div
+                            class="about__card w-[433px] h-[600px] flex flex-col items-center p-10 text-center justify-center">
+                            <img src="./images/AboutImage3.png" class="about__card-image w-7/12 h-[200px]">
+                            <h2 class="text-[22px] my-2">VANILLE</h2>
+                            <p>Grown in Papua New Guinea from <br> Tahitientis variety. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About SECTION END-->
+
+        <section class="service h-[820px] ">
+            <div class="container mx-auto max-w-[1300px] m-0 ">
+                <div class="wrapper">
+
+                    <p class="service__tile text-[#FF678E]">SIMILAR PRODUCTS</p>
+                    <p class="service__subtitle text-[50px] leading-[4rem] mb-16">The fragrance <br>
+                        larger than life.</p>
+
+                    <div class="service-tech w-full flex justify-between ">
+                        <div class="service__card w-[48%] h-[400px]  flex justify-between">
+                            <p class="service__card--title text-[50px]  relative top-3/4">01</p>
+                            <img src="./images/serviceImg1.png" class="w-5/12">
+
+                            <div class="service__card-box flex flex-col justify-center">
+                                <p class="service__card-box--title text-[25px] ">The night treassure</p>
+                                <li class="list-none service__card-box--desc my-7 text-[#474143]">L'amour est un trésor.
+                                    Depuis <br> sa création en 1990, l'Eau de <br> absolu
+                                    sous toute.</li>
+                                <a href="#" class="text-white">LEARN MORE</a>
+                            </div>
+                        </div>
+
+                        <div class="service__card w-[48%] h-[400px]  flex  justify-between">
+                            <p class="service__card--title text-[50px] relative top-3/4">02</p>
+                            <img src="./images/serviceImg2.png" class="w-5/12">
+                            <div class="service__card-box flex flex-col justify-center">
+                                <p class="service__card-box--title text-[25px]">Victoria’s Secret Bombshellx</p>
+                                <li class="list-none service__card-box--desc my-7 text-[#474143]">L'amour est un trésor.
+                                    Depuis sa création en 1990, l'Eau de Pafum Trésor incarne l'amour absolu sous toutes
+                                    des </li>
+                                <a href="#" class="text-white">LEARN MORE</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+    </main>
+
+    <!-- Main end -->
+
+    <footer>
+        <div class="footer-start">
+            <div class="container mx-auto max-w-[1300px] m-0">
+                <div class="wrapper flex justify-between h-20 items-center ">
+                    <a href="#" class="footer__start-logo">
+                        <img src="./images/Logo.svg" alt="logo" class="max-w-[8rem]">
+                    </a>
+                    <form class="footer__start-form">
+                        <label for="search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Your
+                            business email...</label>
+                        <div class="relative">
+                            <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                                <svg aria-hidden="true" class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="none"
+                                    stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                                </svg>
+                            </div>
+                            <input type="search" id="search"
+                                class="block w-[400px] p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-[#221015]"
+                                placeholder="Your business email..." required>
+                            <button type="submit"
+                                class="text-white absolute right-2.5 bottom-2.5 bg-[#AC3E5A] hover:bg-[#e0355f] focus:ring-4 focus:outline-none focus:ring-[#523038] font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Get
+                                started</button>
+                        </div>
+                    </form>
+                    <div class="footer__start-social">
+                        <a href="#" class="footer__start-social--link text-[20px]">
+                            <i class='bx bxl-facebook-circle'></i>
+
+                        </a>
+                        <a href="#" class="footer__start-social--link text-[20px]">
+                            <i class='bx bxl-instagram-alt'></i>
+
+                        </a>
+                        <a href="#" class="footer__start-social--link text-[20px]">
+                            <i class='bx bxl-youtube'></i>
+
+                        </a>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-end">
+            <div class="container mx-auto max-w-[1300px] m-0 ">
+                <nav class="footer flex justify-between items-center h-[80px]">
+                    <p class="text-[#655E60]">Copyright © 2020.Besnik creative</p>
+                    <ul class="footer__list flex justify-between w-2/5">
+                        <li class="footer__list--item ">
+                            <a href="#" class="footer__list--item-link border-b-4 border-[#B2405D] pb-1">ABOUT</a>
+                        </li>
+                        <li class="footer__list--item">
+                            <a href="#" class="footer__list--item-link">INGREDIENTS</a>
+                        </li>
+                        <li class="footer__list--item">
+                            <a href="#" class="footer__list--item-link">PRODUCT</a>
+                        </li>
+                        <li class="footer__list--item">
+                            <a href="#" class="footer__list--item-link">CONTACT</a>
+                        </li>
+                    </ul>
+
+                    <p class="text-[#655E60]">Designed by Besnik</p>
+                </nav>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
